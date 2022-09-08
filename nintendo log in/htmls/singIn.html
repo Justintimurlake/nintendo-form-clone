@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" 
+  type="image/png" 
+  href="../imgages/pngegg.png">
+    <title>Nintendo Account</title>
+</head>
+<body>
+<!-- -------------------header---------------- -->
+    <header>
+        <nav class="nav-allPages">
+            <img src="../imgages/Nintendo_Logo_2017.png" class="nav-logo" alt="logo">
+            <h5 class="nav-title">Nintendo Account</h3>
+        </nav>
+    </header>
+<!-- -------------------main content---------------- -->
+    <section class="container account"> 
+        <div class="title">
+        <h1 class="title-all">Nintendo Account</h1>
+        </div>
+        <div class="account-box singIn-box">
+            <form id="form-singIn" class="form-singIn">
+                <div class="errow-singIn"></div>
+                <div class="form-control__singIn">
+                    <label class="label" for="text">E-mail address/Sing-in</label>
+                    <input type="text" placeholder="E-mail address/Sing-in ID" class="input-sing-in" id="name-singIn">
+                </div>
+                <div class="form-control__singIn">
+                    <label  class="label" for="password-singIn">Password</label>
+                    <input type="password" placeholder="Password" class="input-sing-in" id="password-singIn">
+                </div>
+                <div class="forgent-password">
+                    <a href="./reset.html" class="footer-link"><i class="fa-sharp fa-solid fa-circle-arrow-right"></i> Forget your password</a>
+                    <button class="btn btn-singIn">Sing in</button>
+                </div>
+            </form>
+            <div class="social-medias">
+                <h4 class="title-social">Sign in width</h4>
+                <a href="#" class="linnks-social blue"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                <a href="#" class="linnks-social white"><i class="fa-brands fa-google"></i>Google</a>
+                <a href="#" class="linnks-social lite-blue"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                <a href="#" class="linnks-social black"><i class="fa-brands fa-apple"></i>Sing in with Apple</a>
+            </div>
+            <div class="box-links">
+                <div class="box-links__content">
+                    <h4 class="box-links__title">Don't have an account?</h4>
+                    <a href="../htmls/registration-form.html" class="links-singIn links  box-links__links">Create a Nintendo Account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- -------------------footer---------------- -->
+    <footer class="footer" >
+        <div class="container footer-links">
+            <ul class="footer-ul">
+                <li class="footer-li"><a href="" class="footer-link"><i class="fa-sharp fa-solid fa-circle-question"></i> Help</a></li>
+                <div class="footer-line"></div>
+                <li class="footer-li"><a href="" class="footer-link"><i class="fa-sharp fa-solid fa-circle-arrow-right"></i> Official Nintentdo Website</a></li>
+                <li class="footer-li"><a href="" class="footer-link"><i class="fa-sharp fa-solid fa-circle-arrow-right"></i> Nintendo Account User Agreement</a></li>
+                <li class="footer-li"><a href="" class="footer-link"><i class="fa-sharp fa-solid fa-circle-arrow-right"></i> Nintendo Privacy Policy</a></li>
+                <li class="footer-li"><a href="" class="footer-link"><i class="fa-sharp fa-solid fa-circle-arrow-right"></i> Contact Us</a></li>
+                <div class="footer-line"></div>
+            </ul>     
+        <div class="footer-form">
+            <form class="form-languages">
+                <select name="languages" class="languages" id="languages">
+                  <option value="englishUS">English (US)</option>
+                  <option value="englishAU">English (AU)</option>
+                  <option value="deutch">Deutch</option>
+                  <option value="spanish">Spanish</option>
+                  <option value="franch">Franch</option>
+                  <option value="russian">Russian</option>
+                  <option value="italian">Italian</option>
+                </select>
+              </form>
+              <h5 class="footer-copyright">© Nintendo</h5>
+            </div>
+    </div>
+    </footer>
+    <script src="../jses/singIn.js"></script>
+</body>
+</html>

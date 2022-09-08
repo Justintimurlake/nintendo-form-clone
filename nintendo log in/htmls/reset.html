@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" 
+  type="image/png" 
+  href="../imgages/pngegg.png">
+    <title>Nintendo Account</title>
+</head> 
+<body>
+<!-- -------------------header---------------- -->
+    <header>
+        <nav class="nav-allPages">
+            <img src="../imgages/Nintendo_Logo_2017.png" class="nav-logo" alt="logo">
+            <h5 class="nav-title">Nintendo Account</h3>
+        </nav>
+   </header> 
+<!-- -------------------main content---------------- -->
+ <section class="container reset-size account"> 
+        <div class="title">
+        <h1 class="title-all title-all__reset">Reset password</h1>
+        <p class="title-text__reset">Please enter the e-mail address registered to your account, and then select Submit.
+An e-mail will be sent to that address containing a link to reset your password.</p>
+        </div>
+        <div class="account-box singIn-box">
+            <form id="form-reset" class="form-reset" >
+                <div class="form-reset__reset ">
+                    <label class="label" for="email">E-mail address</label>
+                    <input type="text"  placeholder="E-mail address" class="email-reset" id="email-reset" >
+                    <small class="errow-email-reset"> </small>
+                </div>
+                <div class="reset-info">
+                    <i class="fas fa-smile"></i>
+                    <p class="reset-info__text">If you've forgotten the password for a child account, it can be reset from within the "Family group" option available under the parent or guardian's Nintendo Account.</p>
+                    </div>
+                    <button  class="btn btn-reset ">Submit</button>
+            </form> 
+        </div>
+    </section>
+<!-- -------------------footer---------------- -->
+    <footer class="footer">
+        <div class="container footer-links">
+            <ul class="footer-ul">
+                <li class="footer-li"><a href="" class="footer-link"><i class="fa-sharp fa-solid fa-circle-question"></i> Help</a></li>
+                <div class="footer-line"></div>
+                <li class="footer-li"><a href="" class="footer-link"><i class="fa-sharp fa-solid fa-circle-arrow-right"></i> Official Nintentdo Website</a></li>
+                <li class="footer-li"><a href="" class="footer-link"><i class="fa-sharp fa-solid fa-circle-arrow-right"></i> Nintendo Account User Agreement</a></li>
+                <li class="footer-li"><a href="" class="footer-link"><i class="fa-sharp fa-solid fa-circle-arrow-right"></i> Nintendo Privacy Policy</a></li>
+                <li class="footer-li"><a href="" class="footer-link"><i class="fa-sharp fa-solid fa-circle-arrow-right"></i> Contact Us</a></li>
+                <div class="footer-line"></div>
+            </ul>
+        <div class="footer-form">
+            <form class="form-languages">
+                <select name="languages" class="languages" id="languages">
+                  <option value="englishUS">English (US)</option>
+                  <option value="englishAU">English (AU)</option>
+                  <option value="deutch">Deutch</option>
+                  <option value="spanish">Spanish</option>
+                  <option value="franch">Franch</option>
+                  <option value="russian">Russian</option>
+                  <option value="italian">Italian</option>
+                </select>
+              </form>
+              <h5 class="footer-copyright">© Nintendo</h5>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="../jses/reset.js"></script>
+</body>
+</html>
